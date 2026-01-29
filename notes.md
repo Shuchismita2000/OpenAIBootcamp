@@ -22,10 +22,29 @@
 * Offline evals 
 * Online evals 
 * Process flow 
-    * tier 0 triage (small model gpt 5 mini)
-    * _> tier 1 support (large model to try smaller --- top to down, quickly know upper limit gpt 5) [Knowledge Base -> Routines]
+    * tier 0 triage (small model gpt 5 mini) online eval
+    * _> tier 1 support (large model to try smaller --- top to down, quickly know upper limit gpt 5 + RAG) [Knowledge Base -> Routines] info retrival eval
         * case resolution (model - final )
             * root cause analysis (model)
         * tier 2 support (note given by model gpt 4.1 + human ) 
             * case resolution (model - final )
-                * root cause analysis (model gpt 5 mini)
+                * root cause analysis (model gpt 5 mini) sentiment grader classification eval , summarize eval 
+    * Component wise eval 
+
+* product overview
+    * eval api (data, report )
+    * agent trace eval 
+    * targeted ships 
+    * auto evals 
+        * build a prototype agent 
+        * small data, eun generation, annonate feedback 
+        * gerate graders 
+        * run and grade generation 
+        * optimized prompt generate 
+        * test on eval
+        * push the best new 
+        * run online graders 
+        * expand dataset with challenging inputs 
+        * run and grade generations (loop)
+
+    *
