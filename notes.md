@@ -21,4 +21,11 @@
 * Algo of effective evals (golden dataset)
 * Offline evals 
 * Online evals 
-
+* Process flow 
+    * tier 0 triage (small model gpt 5 mini)
+    * _> tier 1 support (large model to try smaller --- top to down, quickly know upper limit gpt 5) [Knowledge Base -> Routines]
+        * case resolution (model - final )
+            * root cause analysis (model)
+        * tier 2 support (note given by model gpt 4.1 + human ) 
+            * case resolution (model - final )
+                * root cause analysis (model gpt 5 mini)
