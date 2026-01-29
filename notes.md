@@ -11,6 +11,13 @@
     * json 
     * unit test pass/fail 
     * fixed latency : Time to first token , time between token 
+* Non deterministic evals 
+    * choosing a model 
+    * bi low precision 
+    * repetition 
+    * multi turn trajectory 
+    * discriminate vs create 
+    * validate the grader 
 * Algo of effective evals (golden dataset)
 * Offline evals 
 * Online evals 
